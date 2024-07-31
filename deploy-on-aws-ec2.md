@@ -38,8 +38,8 @@
 
 ###    Write this cmd on your local machine
 ![.](ss-for-ec2/9.png) 
-            "scp -i location/of/your-key-pair-file source(file-to-transfer) detination(username@ip:location)"
-            eg- "scp -i download/ankit-key.pem c:Dekstop/abc.jar ubuntu@12.143.124.12:/home/ubuntu/spring-boot"
+            `scp -i location/of/your-key-pair-file source(file-to-transfer) detination(username@ip:location)`
+            eg- `scp -i download/ankit-key.pem c:Dekstop/abc.jar ubuntu@12.143.124.12:/home/ubuntu/spring-boot`
 
 ###     Open your ubuntu machine and check jar file is there or not if yes  
 ![.](ss-for-ec2/10.png) 
@@ -51,5 +51,8 @@
 
             "112.124.54.64:8080"
 ![.](ss-for-ec2/13.png) 
+
+
+(youtube)()
 
 *Note: After using services make sure you stop that service*
