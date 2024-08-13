@@ -17,7 +17,9 @@
 
 **Start the new application:**
 `pm2 start "java -jar your-app.jar" --name your-app-name`
+
 or 
+
 `pm2 start --name kmp.sh`
 
 
