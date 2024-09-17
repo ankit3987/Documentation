@@ -1,6 +1,10 @@
 Live DevOps Project for Resume - Jenkins CICD with GitHub Integration (Notes)
 
-    Create AWS EC2 instance
+Configure jenkins and docker then deploy project using jenkins
+
+github --> docker --> jenkins --> aws
+
+Create AWS EC2 instance
 
 Install java:-
         sudo apt update
@@ -40,6 +44,6 @@ Got to jenkins job
         docker build . -t node-app-todo
         docker run -d --name node-app-container -p 8000:8000 node-app-todo
 
-
-
-      * coolify
+this is the video where i learn to make this fucking project:-
+https://www.youtube.com/watch?v=nplH3BzKHPk&list=PLlfy9GnSVerRqYJgVYO0UiExj5byjrW8u&index=15
+    * coolify

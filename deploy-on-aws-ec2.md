@@ -53,6 +53,4 @@
 ![.](ss-for-ec2/13.png) 
 
 
-(youtube)()
-
 *Note: After using services make sure you stop that service*
